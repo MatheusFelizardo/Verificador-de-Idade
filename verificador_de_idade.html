@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Verificador de Idade</title>
+
+    
+</head>
+
+<body>
+
+    <header>
+        <h2>Verificador de idade</h2>
+    </header>
+
+    <section>
+
+        <div>
+            <p>Ano de Nascimento: <input type="number" id="anoNascimento" min="0"></p>
+            <p>Sexo: 
+            <input type="radio" name="radsex" id="masculino" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="radsex" id="feminino" value="feminino"> 
+            <label for="feminino">Feminino</label>
+            </p>
+        </div>
+
+            <p>
+                <input onclick="calcularIdade()" type="button" value="Verificar">
+            </p>
+        <hr/>
+        <div>
+            <p id="suaIdade"></p>
+            <p id= "img">
+            <img id="alteraImg" src="" alt="">
+            
+            </p>
+        </div>
+
+    </section>
+   
+<footer> Criado por Matheus Felizardo &copy; </footer>    
+
+<script src="script.js"></script>
+</body>
+</html>

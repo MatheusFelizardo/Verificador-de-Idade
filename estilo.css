@@ -1,0 +1,42 @@
+body {
+    background: rgba(219, 83, 4, 0.884);
+}
+
+header {
+    font: 16pt normal Arial;
+    text-align: center;
+    color: white;
+}
+
+section {
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+    background: white;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 4px 4px 10px black;
+    
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font: 12pt normal Arial;
+    font-weight: bold; 
+    font-style: italic;
+    color: white;
+}
+
+div#alteraTexto {
+text-align: center;
+font: 20px normal Arial; 
+
+padding-bottom: 10px;
+font-style: italic;
+}
+
+p#img {
+    text-align: center;
+    margin: auto;
+}
